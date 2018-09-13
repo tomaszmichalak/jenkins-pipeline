@@ -7,18 +7,8 @@ pipeline {
     stages {
         stage('Init') { 
             steps {
-         	echo "PATH = ${PATH}"
+         	      echo "PATH = ${PATH}"
                 echo "M2_HOME = ${M2_HOME}"        
-            }
-        }
-        stage('Build & Test') { 
-            steps {
-                // 
-            }
-        }
-        stage('Deploy') { 
-            steps {
-                // 
             }
         }
     }
